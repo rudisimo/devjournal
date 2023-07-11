@@ -1,0 +1,11 @@
+title = "Dev Journal"
+
+[author]
+name = "Rodolfo Puig"
+image = "img/rudisimo.jpg"
+headline = "Just call me Rudy"
+links = [
+  { linkedin = "https://linkedin.com/in/rudisimo" },
+  { twitter = "https://twitter.com/rudisimo" },
+  { github = "https://github.com/rudisimo" }
+]

@@ -1,0 +1,63 @@
+autoSwitchAppearance = false
+colorScheme = "fire"
+defaultAppearance = "dark"
+enableCodeCopy = true
+enableSearch = true
+highlightCurrentMenuArea = true
+
+[header]
+layout = "basic"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "hero"
+# homepageImage = ""
+showRecent = true
+showRecentItems = 3
+showMoreLink = true
+showMoreLinkDest = "posts"
+cardView = false
+layoutBackgroundBlur = true
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateUpdated = true
+showAuthor = false
+showHero = false
+# heroStyle = "big"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = true
+showDraftLabel = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = false
+showSummary = true
+
+[list]
+showHero = false
+# heroStyle = "thumbAndBackground"
+showBreadcrumbs = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showTableOfContents = true
+showSummary = true
+showCards = false
+groupByYear = true
+cardView = false
+
+[taxonomy]
+showTermCount = true
+showHero = false
+# heroStyle = "big"
+showBreadcrumbs = true
+showTableOfContents = true
+cardView = false

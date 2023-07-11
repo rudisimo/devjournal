@@ -1,0 +1,11 @@
+[[main]]
+  pre = "bars"
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  pre = "github"
+  name = "GitHub"
+  url = "https://github.com/puigco"
+  weight = 30
