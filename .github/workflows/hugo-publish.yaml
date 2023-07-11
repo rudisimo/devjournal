@@ -29,17 +29,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.115.2
+      HUGO_VERSION: "0.114.1"
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: ${HUGO_VERSION}
+          hugo-version: ${{ env.HUGO_VERSION }}
+          # extended: true
 
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Pages
         id: pages
