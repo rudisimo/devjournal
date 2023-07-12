@@ -1,5 +1,0 @@
----
-title: "Rodolfo Puig"
----
-
-Hi!

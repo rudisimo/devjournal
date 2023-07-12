@@ -1,4 +1,0 @@
-baseURL = "http://rudisimo.github.io/devjournal"
-languageCode = "en"
-theme = "blowfish"
-publishDir = "public"
