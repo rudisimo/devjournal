@@ -1,13 +1,12 @@
 ---
+slug: game-development
 title: Game Development
 date: 2022-08-16T23:18:03Z
 draft: false
-slug: gamedev
 authors:
   - rudisimo
 tags:
   - gamedev
-  - daydream
 ---
 
 The thought of designing and building games has been on my head for well over two decades now. It started originally as a daydream of wanting to work for a game company like Valve.
@@ -17,6 +16,8 @@ The game idea that keeps coming back to my mind which is to build an open-world 
 In the meantime I will continue playing and daydreaming.
 
 ---
+
+## Concepts
 
 The following concepts are from my research of [Subnautica {{< icon "steam" >}}](https://store.steampowered.com/app/264710/Subnautica/).
 
@@ -40,5 +41,5 @@ See creatures swimming around, harvest narwhal horn, submarine can flood, can cr
 
 ### Videos
 
-- [The Design of Subnautica {{< icon "youtube" >}}](https://youtu.be/7R-x9NSBS2Y) (GDC 2019)
-- [Stress-Free Game Development: Powering Up Your Studio With DevOps {{< icon "youtube" >}}](https://youtu.be/t9HRzE7_2Xc) (GDC 2020)
+- [The Design of Subnautica {{< icon "youtube" >}}](https://youtu.be/7R-x9NSBS2Y) | GDC 2019
+- [Stress-Free Game Development: Powering Up Your Studio With DevOps {{< icon "youtube" >}}](https://youtu.be/t9HRzE7_2Xc) | GDC 2020
