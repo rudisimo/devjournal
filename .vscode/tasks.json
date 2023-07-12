@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "hugo-watch",
+            "type": "shell",
+            "command": "hugo server -D -F -w --logLevel info --bind 0.0.0.0",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "group": "build",
+            "isBackground": true,
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "tamasfe.even-better-toml",
+                "davidanson.vscode-markdownlint",
+                "mutantdino.resourcemonitor",
+                "shardulm94.trailing-spaces",
+                "usernamehw.errorlens"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "1313": {
+            "label": "Hugo",
+            "onAutoForward": "notify"
+        }
+    },
+    "remoteUser": "vscode"
+}
