@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: "0.114.1"
+      HUGO_VERSION: "0.115.1"
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -41,8 +41,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true  # Fetch Hugo themes (true OR recursive)
 
       - name: Setup Pages
         id: pages
