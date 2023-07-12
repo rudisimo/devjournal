@@ -12,13 +12,13 @@ tags:
 
 The thought of designing and building games has been on my head for well over two decades now. It started originally as a daydream of wanting to work for a game company like Valve.
 
-The game idea that keeps coming back to my mind which is to build an open-world building/survival game à'la [{{< icon "steam" >}} Satisfactory](https://store.steampowered.com/app/526870/Satisfactory/), but with none of the weird bugs :grinning_face_with_sweat:.
+The game idea that keeps coming back to my mind which is to build an open-world building/survival game à'la [Satisfactory {{< icon "steam" >}}](https://store.steampowered.com/app/526870/Satisfactory/), but with none of the weird bugs :grinning_face_with_sweat:.
 
 In the meantime I will continue playing and daydreaming.
 
 ---
 
-The following concepts are from my research of [{{< icon "steam" >}} Subnautica](https://store.steampowered.com/app/264710/Subnautica/).
+The following concepts are from my research of [Subnautica {{< icon "steam" >}}](https://store.steampowered.com/app/264710/Subnautica/).
 
 ### Minutes of Fun
 
@@ -40,5 +40,5 @@ See creatures swimming around, harvest narwhal horn, submarine can flood, can cr
 
 ### Videos
 
-- [{{< icon "youtube" >}} The Design of Subnautica ](https://youtu.be/7R-x9NSBS2Y) (GDC 2019)
-- [{{< icon "youtube" >}} Stress-Free Game Development: Powering Up Your Studio With DevOps ](https://youtu.be/t9HRzE7_2Xc) (GDC 2020)
+- [The Design of Subnautica {{< icon "youtube" >}}](https://youtu.be/7R-x9NSBS2Y) (GDC 2019)
+- [Stress-Free Game Development: Powering Up Your Studio With DevOps {{< icon "youtube" >}}](https://youtu.be/t9HRzE7_2Xc) (GDC 2020)
