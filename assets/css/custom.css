@@ -1,0 +1,11 @@
+a.footnote-ref {
+  font-weight: 700;
+}
+
+a.footnote-ref::before {
+  content: '[';
+}
+
+a.footnote-ref::after {
+  content: ']';
+}
