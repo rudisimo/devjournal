@@ -1,4 +1,4 @@
-FROM ghcr.io/peaceiris/hugo:v0.119.0
+FROM ghcr.io/peaceiris/hugo:v0.118.2
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -10,5 +10,12 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && mkdir -p /etc/sudoers.d \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
+
+# Configure bash prompt
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update \
+    && apt-get install -y bash-completion \
+    && rm -rf /var/lib/apt/lists/* \
+    && hugo completion bash > /etc/bash_completion.d/hugo
 
 USER $USERNAME

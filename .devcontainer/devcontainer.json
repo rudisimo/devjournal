@@ -12,12 +12,15 @@
                 "mutantdino.resourcemonitor",
                 "shardulm94.trailing-spaces",
                 "usernamehw.errorlens"
-            ]
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
         }
     },
     "portsAttributes": {
         "1313": {
-            "label": "Hugo",
+            "label": "Hugo Preview",
             "onAutoForward": "notify"
         }
     },
