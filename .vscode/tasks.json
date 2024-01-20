@@ -4,7 +4,7 @@
         {
             "label": "hugo-watch",
             "type": "shell",
-            "command": "hugo server -D -F -w --logLevel info --bind 0.0.0.0",
+            "command": "test -z '${env:REMOTE_CONTAINERS}' || hugo server -D -F -w --logLevel info --bind 0.0.0.0",
             "args": [],
             "options": {
                 "cwd": "${workspaceFolder}"
