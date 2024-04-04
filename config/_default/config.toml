@@ -25,6 +25,7 @@ buildFuture = false
     { linkedin = "https://linkedin.com/in/rudisimo" },
     { github = "https://github.com/rudisimo" },
     { mastodon = "https://mastodon.social/@rudisimo" },
+    { bluesky = "https://bsky.app/profile/rudisimo.bsky.social" },
   ]
 
 [imaging]
