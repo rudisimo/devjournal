@@ -3,19 +3,19 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "http://rudisimo.github.io/devjournal"
+# baseURL = "http://rudisimo.github.io/devjournal"
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
 
-# googleAnalytics = "G-XXXXXXXXXX"
+googleAnalytics = "G-9PLS07CT4Y"
 
 [author]
   name = "Rodolfo Puig"
