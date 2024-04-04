@@ -2,7 +2,7 @@
 
 ## Quickstart
 
-Setup Dev Container environment:
+Setup `Dev Container` environment:
 
 ```shell
 git submodule update --init --recursive
