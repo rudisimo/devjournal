@@ -1,4 +1,5 @@
-FROM ghcr.io/peaceiris/hugo:v0.118.2
+ARG HUGO_VERSION=latest
+FROM ghcr.io/peaceiris/hugo:${HUGO_VERSION}
 
 ARG USERNAME=vscode
 ARG USER_UID=1000

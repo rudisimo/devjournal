@@ -1,7 +1,10 @@
 {
     "build": {
         "context": "..",
-        "dockerfile": "Dockerfile"
+        "dockerfile": "Dockerfile",
+        "args": {
+            "HUGO_VERSION": "v0.124.1"
+        }
     },
     "customizations": {
         "vscode": {
