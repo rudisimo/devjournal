@@ -11,7 +11,8 @@
             },
             "problemMatcher": [],
             "presentation": {
-                "reveal": "silent"
+                "reveal": "silent",
+                "close": true
             },
             "group": "build",
             "isBackground": true,
