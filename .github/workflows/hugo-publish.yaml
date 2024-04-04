@@ -4,7 +4,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - main
+      - $default-branch
     paths-ignore:
       - '.devcontainer/**'
       - '.vscode/**'
@@ -60,7 +60,7 @@ jobs:
 
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "${{ steps.pages.outputs.base_url }}/" | while read line; do
+          chmod -c -R +rX "./public/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
@@ -85,7 +85,7 @@ jobs:
 
     # Specify runner + deployment step (only on main)
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref_name == github.event.repository.default_branch
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
