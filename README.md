@@ -20,4 +20,4 @@ git submodule update --init --recursive --remote
 
 ## License
 
-Licensed under the [MIT](LICENSE.txt) license.
+This code is licensed under the [MIT License](LICENSE.txt).
